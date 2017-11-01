@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/series.css"/>
+    <script type="text/javascript" src="assets/js/series.js"></script>
+</head>
+    <body>
+        <h1>2) Data Visualiser</h1>
+        <div class="searchContainer">
+            Search
+            <input type="input" class="searchBox" id="search" placeholder="Start typing to search by field"/>
+        </div>
+        <div class="paginationContainer">
+            <input type="button" id="pageBack" class="pageArrows" value="<"/>
+            <label id="paginationInfo"></label>
+            <input type="button" id="pageForward" class="pageArrows" value=">"/>
+
+            <select id="pagination" class="dataPagination">
+                <option>All</option>
+                <option>25</option>
+                <option>50</option>
+                <option>100</option>
+            </select>
+        </div>
+        <div class="gridContainer" id="dataGrid">
+            <div class="gridHeaders">
+                <div class="gridColumn header id">
+                    ID <div class="filterCaret" id="id" orderBy="asc" active="false"></div>
+                </div>
+                <div class="gridColumn header gender">
+                    Gender <div class="filterCaret" id="gender" orderBy="asc" active="false"></div>
+                </div>
+                <div class="gridColumn header first_name">
+                    First Name <div class="filterCaret" id="first_name" orderBy="asc" active="false"></div>
+                </div>
+                <div class="gridColumn header last_name">
+                    Last Name <div class="filterCaret" id="last_name" orderBy="asc" active="false"></div>
+                </div>
+                <div class="gridColumn header email">
+                    Email <div class="filterCaret" id="email" orderBy="asc" active="false"></div>
+                </div>
+                <div class="gridColumn header ip_address">
+                    IP Address <div class="filterCaret" id="ip_address" orderBy="asc" active="false"></div>
+                </div>
+            </div>
+            <div id="gridBody">
+
+            </div>
+        </div>
+    </body>
+</html>
