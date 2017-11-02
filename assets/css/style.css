@@ -1414,10 +1414,9 @@ Icon for all respective meta
 
 
 /* === Contact Section === */
-.contact-section  {
-  
+.grecaptcha-badge{
+    display: none; /*Initially*/
 }
-
 .contact-section strong {
     display: block;
     text-transform: uppercase;
@@ -1446,19 +1445,6 @@ Icon for all respective meta
     font-weight: 400;
     margin-bottom: 45px
 }
-
-
-/*MAP*/
-.location-map {
-    padding: 4px;
-    border: 1px solid #eee;
-    border-bottom: 3px double #eee;
-}
-.map-canvas {
-    height: 350px;
-}
-
-
 
 
 /* === Footer Wrapper === */
