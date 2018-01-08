@@ -1,7 +1,7 @@
-# personal_portfolio
+# Personal Portfolio
 
 
-My Resume hosted on lukashavenga.com (if up, else not :) )
+My Resume hosted on [lukashavenga.com](http://lukashavenga.com) (if up, else not :) )
 
 This project was a quick hit based on a free template of which the origin has become lost - will update when found.
 
