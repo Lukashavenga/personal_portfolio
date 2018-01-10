@@ -571,6 +571,9 @@
     <section id="contact" class="contact-section section-padding">
       <div class="container">
         <h2 class="section-title wow fadeInUp touchHeading">Get in touch</h2>
+	
+		<!-- TODO: Temp offline while Mail sending gets updated -->
+	      <h3 style="text-align:center; font-style: italic; color: gray;">Currently Offline </h3>
 
         <div class="row">
             <div class="contact-form">
@@ -579,22 +582,22 @@
 
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required="">
+                  <input disabled="disabled" type="text" name="name" class="form-control" id="name" required="">
                 </div>
 
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="email" name="email" class="form-control" id="email" required="">
+                  <input disabled="disabled" type="email" name="email" class="form-control" id="email" required="">
                 </div>
 
                 <div class="form-group">
                   <label for="subject">Subject</label>
-                  <input type="text" name="subject" class="form-control" id="subject">
+                  <input disabled="disabled" type="text" name="subject" class="form-control" id="subject">
                 </div>
 
                 <div class="form-group">
                   <label for="message">Message</label>
-                  <textarea name="message" class="form-control" id="message" rows="5" required=""></textarea>
+                  <textarea disabled="disabled" name="message" class="form-control" id="message" rows="5" required=""></textarea>
                 </div>
                 
                 <div class="g-recaptcha" 
@@ -604,7 +607,7 @@
                    data-callback="onSubmit">
                 </div>
 
-                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+                <button disabled="disabled" type="submit" name="submit" class="btn btn-primary">Send Message</button>
               </form>
             </div><!-- /.contact-form -->
         </div><!-- /.row -->
