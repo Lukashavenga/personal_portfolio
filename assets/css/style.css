@@ -413,7 +413,9 @@ SOCIAL ICON
     border: 1px solid transparent;
     z-index: 0;
 }
-
+.social-icons a .fa-github:hover::after{
+    background: #24292e;
+}
 .social-icons a .fa-facebook:hover::after{
     background: #3b5998;
 }
